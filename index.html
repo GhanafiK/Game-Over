@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Game Over Sidte" />
+    <meta name="keywords" content="Game Over , موقع العاب" />
+    <meta name="author" content="Gamal Hanafi" />
+    <title>Home</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <div
+      class="loading-screen position-fixed top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center d-none"
+    >
+      <span class="loader"></span>
+    </div>
+
+    <header class="upper-img">
+      <img src="img/wraper.png" alt="background image" class="w-100" />
+    </header>
+
+    <nav class="navbar navbar-expand-lg col-md-6 col-lg-9 mx-auto position-sticky top-0 z-3">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#"
+          ><img src="img/logo-sm.png" alt="logo of our website" /> GAME
+          REVIEWS</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu small  navbar-dark">
+            <li class="nav-item">
+              <a class="nav-link active " aria-current="page" href="#">MMORPG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SHOOTER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">SAILING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PERMADEATH</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">SUPERHERO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PIXEL</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="game my-5 ">
+        <div class="container">
+          <div class="row g-4" id="gameData">
+
+
+          </div>
+        </div>
+      </section>
+
+      <section class="details text-white d-none">
+        <div class="container">
+          <header class="d-flex justify-content-between align-items-center">
+            <h1 class="h3 py-4">Details Game</h1>
+            <button class="btn-close btn-close-white" id="btnClose"></button>
+          </header>
+
+          <div class="content">
+            <div class="row g-4" id="gameDetails">
+              
+              
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="js/index.js"></script>
+  </body>
+</html>
