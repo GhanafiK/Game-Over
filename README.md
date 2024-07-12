@@ -20,7 +20,7 @@ Users can browse games by different categories and view detailed information abo
         - Brief description
         - Category.
         - Platform(s).
-3. Game Details Page:
+3. Game Details Page
    - When a user clicks on a game card, they are taken to a details page for that game.
    - The details page includes additional information about the game:
         - Thumbnail image.
@@ -30,7 +30,7 @@ Users can browse games by different categories and view detailed information abo
         - Status.
         - Full description.
         - "Show Game" button.
-4. "Show Game" Button:
+4. "Show Game" Button
    - Clicking this button takes the user to the actual game (e.g., the game’s official website).
 5. Responsive Design
    - The CSS ensures that the app looks great on various devices, from desktops to mobile phones.
